@@ -1,0 +1,76 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Integer Number:");
+        int a = sc.nextInt();
+        sc.nextLine();
+        System.out.println("Enter String");
+        String s = sc.nextLine();
+        System.out.println("Enter Float Number:");
+        float f =sc.nextFloat();
+        System.out.println("HELLO WORLD");
+        System.out.println(a);
+        System.out.println(s);
+        System.out.println(f);
+    }
+}    
+static
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args){
+        System.out.println("emp_id=103");
+        System.out.println("Name=Danny");
+        System.out.println("Branch=HR");
+        System.out.println("Salary=40,000");
+        System.out.println("Exp=3 years");
+
+    }
+}    
+dynamic
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Emp_id:");
+        int a = sc.nextInt();
+        sc.nextLine();
+        System.out.println("Emp_name");
+        String s = sc.nextLine();
+        System.out.println("Branch:");
+        String f = sc.nextLine();
+        System.out.println("salary");
+        int b = sc.nextInt();
+        System.out.println("Exp:");
+        int c = sc.nextInt();
+        System.out.println(a);
+        System.out.println(s);
+        System.out.println(f);
+        System.out.println(b);
+        System.out.println(c);
+    }
+}
+//QUESTION=1//
+import java.util.*;
+
+public class Main
+{
+    public static void main(String[] args) {
+       System.out.println("HELLO JAVA");
+       System.out.println("WELCOME TO PROGRAMMING");
+       System.out.println("MY JOURNEY STARTS TODAY");
+        
+    }
+}
+//QUESTIOM-2//
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("College: DSEC Engineering College");
+        System.out.println("Department: AI&DS");
+        System.out.println("Course: Java Programming");
+    }
+}
