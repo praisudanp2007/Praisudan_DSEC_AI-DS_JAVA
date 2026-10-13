@@ -74,3 +74,143 @@ public class Main {
         System.out.println("Course: Java Programming");
     }
 }
+//QUESTION-3//
+public class Main {
+    public static void main(String[] args) {
+        System.out.print("Java is simple Java is powerful");
+    }
+}
+//QUESTION-4//
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Name:\tPraisudan");
+        System.out.println("Course:\nJAVA");
+        System.out.println("Level:\tBeginner");
+    }
+}
+//QUESTION-5//
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("STUDENT PROFILE");
+        System.out.println("Name:\tPraisudan");
+        System.out.println("Age:19");
+        System.out.println("Grade:A");
+        System.out.println("Placement status:ongoing");
+    }
+}
+//QUSTION-6//
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Population:8000000L");
+        System.out.println("Product Price:1499.95");
+        System.out.println("Blood Group:O");
+        System.out.println("Account Verified:TRUE");
+        System.out.println("Employee Name: DANNY");
+    }
+}
+//QUESTION-7//
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("PRODUCT INFORMATION");
+        System.out.println("-------------------");
+        System.out.println("Product Name:Laptop");
+        System.out.println("Product ID:101");
+        System.out.println("Price:3000");
+    }
+}
+//QUESTION-8//
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in)
+        System.out.print("Enter age: ");
+        int a = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Enter city: ");
+        String s = sc.nextLine();
+        System.out.println(a);
+        System.out.println(s);
+    }
+}
+//QUESTION-9//
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter student name: ");
+        String name = sc.nextLine();
+        System.out.print("Enter roll number: ");
+        int rollNumber = sc.nextInt();
+        sc.nextLine();
+        System.out.print("Enter department: ");
+        String department = sc.nextLine();
+        System.out.print("Enter percentage: ");
+        double percentage = sc.nextDouble();
+        System.out.println("\nSTUDENT REGISTRATION");
+        System.out.println("Name:" );
+        System.out.println("Roll Number:");
+        System.out.println("Department:");
+        System.out.println("Percentage:");
+
+    }
+}
+//QUESTION-10//
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter customer name: ");
+        String customer = sc.nextLine();
+        System.out.print("Enter movie name: ");
+        String movie = sc.nextLine();
+        System.out.print("Enter ticket count: ");
+        int tickets = sc.nextInt();
+        System.out.print("Enter ticket price: ");
+        double price = sc.nextDouble();
+        System.out.println("\nBOOKING SUMMARY");
+        System.out.println("Customer:");
+        System.out.println("Movie: ");
+        System.out.println("Tickets:");
+        System.out.println("Ticket Price:");
+    }
+}
+//QUESTION-11//
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter customer name: ");
+        String name = sc.nextLine();
+        System.out.print("Enter street address: ");
+        String address = sc.nextLine();
+        System.out.print("Enter city: ");
+        String city = sc.nextLine();
+        System.out.print("Enter PIN code: ");
+        int pin = sc.nextInt();
+        System.out.println("\nDELIVERY DETAILS");
+        System.out.println("Customer Name:");
+        System.out.println("Street Address:");
+        System.out.println("City");
+        System.out.println("PIN Code:");
+    }
+}
+//QUESTION-12//
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter patient name: ");
+        String name = sc.nextLine();
+        System.out.print("Enter patient ID: ");
+        int patientId = sc.nextInt();
+        System.out.print("Enter age: ");
+        int age = sc.nextInt();
+        System.out.print("Enter temperature: ");
+        double temperature = sc.nextDouble();
+        System.out.println("\nPATIENT RECORD");
+        System.out.println("Patient Name:");
+        System.out.println("Patient ID:");
+        System.out.println("Age:");
+        System.out.println("Temperature:");
+    }
+}
