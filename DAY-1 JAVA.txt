@@ -214,3 +214,341 @@ public class Main {
         System.out.println("Temperature:");
     }
 }
+                                        /////////------DAY-2------\\\\\\\\
+//QUESTION-1//
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number");
+            int n = sc.nextInt();
+            System.out.println(n%2==0?"even":"odd");
+    }
+}
+//QUESTON-2//
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a first number");
+        int a=sc.nextInt();
+        System.out.println("enter a second number");
+        int b=sc.nextInt();
+        System.out.println(a==b?"Equal":(a>b?a:b));
+    }
+}
+//QUESTION-3//
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number");
+        int a=sc.nextInt();
+        System.out.println((a==0)? "ZERO":(a>0?"POSSITIVE":"NEGATIVE"));
+    }
+}
+//QUESTION-5//
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number");
+        int a=sc.nextInt();
+        System.out.println(a%3==0&&a%5==0?"yes":"no");
+    }
+}
+          
+//QUESTION-4//   
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a age");
+        int a=sc.nextInt();
+        System.out.println(a >= 18? "mission passed":"mission failed" );
+    }
+}
+//QUESTION-6//
+     import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a three number");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+            System.out.print(( a < b ) ? ( a >b ) ? a : c : (b < c) ? b : c);
+    }
+} 
+//QUESTION-7//
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+
+        System.out.println(n % 10 % 2 == 0 ? "Yes" : "No");
+    }
+}
+ 
+//QUESTION-8//
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter three subject marks: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        System.out.println(a >= 35 && b >= 35 && c >= 35
+                ? "Pass" : "Fail");
+    }
+}
+   
+//QUESTION-9//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter order amount: ");
+        double amount = sc.nextDouble();
+
+        System.out.print("Premium member (true/false): ");
+        boolean premium = sc.nextBoolean();
+
+        System.out.println(amount >= 1000 || premium
+                ? "Free Delivery"
+                : "Delivery Charges Apply");
+    }
+}
+//QUETION-10//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter purchase amount: ");
+        double amount = sc.nextDouble();
+
+        double finalAmount = amount >= 2000
+                ? amount * 0.90
+                : amount;
+
+        System.out.printf("Final Amount: ?%.2f%n", finalAmount);
+    }
+}
+                                                        ---------PART-2----------
+//QUESTION-1//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+
+        String result = (n % 7 == 0) ? "Lucky" : "Unlucky";
+
+        System.out.println(result);
+    }
+}
+
+//QUESTION-2//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter two numbers: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        String result = (a == b) ? "Same"
+                      : (a < b) ? String.valueOf(a)
+                      : String.valueOf(b);
+
+        System.out.println(result);
+    }
+}
+//QUESTION-3//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a character: ");
+        char ch = sc.next().charAt(0);
+
+        String result = (ch == 'a' || ch == 'e' || ch == 'i'
+                      || ch == 'o' || ch == 'u'
+                      || ch == 'A' || ch == 'E' || ch == 'I'
+                      || ch == 'O' || ch == 'U')
+                      ? "Vowel" : "Consonant";
+
+        System.out.println(result);
+    }
+}
+//QUESTION-4//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter temperature: ");
+        int temp = sc.nextInt();
+
+        String result = (temp > 35) ? "Hot"
+                      : (temp >= 20) ? "Normal"
+                      : "Cold";
+
+        System.out.println(result);
+    }
+}
+
+//QUESTION-5//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter amount: ");
+        int amount = sc.nextInt();
+
+        String result = (amount % 10 == 0)
+                      ? "Valid Amount" : "Invalid Amount";
+
+        System.out.println(result);
+    }
+}
+//QUESTION-6//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a two-digit number: ");
+        int n = sc.nextInt();
+
+        String result = (n / 10 == n % 10)
+                      ? "Equal Digits" : "Different Digits";
+
+        System.out.println(result);
+    }
+}
+//QUESTION-7//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+
+        String result = (n >= 50 && n <= 100)
+                      ? "Inside Range" : "Outside Range";
+
+        System.out.println(result);
+    }
+}
+
+//QUESTION-8//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter salary: ");
+        int salary = sc.nextInt();
+
+        System.out.print("Enter experience: ");
+        int experience = sc.nextInt();
+
+        int bonus = (experience >= 5 && salary < 50000)
+                  ? 5000 : 0;
+
+        System.out.println(bonus);
+    }
+}
+
+//QUESTION-9//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter three sides: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        String result = (a > 0 && b > 0 && c > 0
+                      && a + b > c
+                      && a + c > b
+                      && b + c > a)
+                      ? "Valid Triangle" : "Invalid Triangle";
+
+        System.out.println(result);
+    }
+}
+//QUESTION-10//
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+
+        String result = (n == 0) ? "Zero"
+                      : (n > 0)
+                      ? (n % 2 == 0 ? "Positive Even" : "Positive Odd")
+                      : (n % 2 == 0 ? "Negative Even" : "Negative Odd");
+
+        System.out.println(result);
+    }
+}
+                   /////------DAY-3-------\\\\\
+
+
+
+
+
+
+
